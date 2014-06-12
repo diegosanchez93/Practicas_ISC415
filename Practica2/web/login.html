@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Pr&aacute;ctica 2 - Jordani Roz&oacute;n & Diego S&aacute;nchez</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/login.css" rel="stylesheet">
+        <script src="js/login.js"></script>
+
+    </head>
+    <body>        
+        <div class="container">
+	<div class="login-container">
+            <div id="output"></div>
+            <div class="avatar"></div>
+            <div class="form-box">
+                <form autocomplete="off" action="./ValidacionUsuarioCookie" method="post">
+                    <input name="Usuario" type="text" placeholder="Usuario">
+                    <input name="Clave" type="password" placeholder="Clave">
+                    <button class="btn btn-info btn-block login" type="submit">Iniciar Sesion</button>
+                    <br>
+                    <span class="pull-right"><button type="reset">Limpiar Campos</button></span>
+                </form>
+            </div>
+        </div>
+</div>
+    </body>
+</html>
